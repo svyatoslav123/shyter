@@ -31,9 +31,10 @@ while True:
             pygame.quit()
             sys.quit()
 
-
+    dd.move()
     for enemy in enemies:
         enemy.draw(window)
+        enemy.move()
     dd.draw(window)
     pygame.display.flip()
 
