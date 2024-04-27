@@ -2,7 +2,7 @@ import pygame
 
 
 class Player:
-    def init(self, x, y, w, h, img, speed):
+    def __init__(self, x, y, w, h, img, speed):
         self.photo = pygame.transform.scale(pygame.image.load(img), (w, h))
         self.hitbox = self.photo.get_rect()
         self.hitbox.x = x
@@ -27,7 +27,7 @@ class Player:
 
 
 class Enemy:
-    def init(self, x, y, w, h, img, speed):
+    def __init__(self, x, y, w, h, img, speed):
         self.photo = pygame.transform.scale(pygame.image.load(img), (w, h))
         self.hitbox = self.photo.get_rect()
         self.hitbox.x = x

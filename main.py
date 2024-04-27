@@ -23,7 +23,7 @@ background = pygame.transform.scale(image.load("galaxy.jpg"), (700, 500))
 
 
 
-,
+
 while True:
     window.blit(background, (0, 0))
     for event in pygame.event.get():
