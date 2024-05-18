@@ -13,7 +13,6 @@ shop_btn = QPushButton("SHOP")
 gg_lbl = QLineEdit("")
 skin_1 = QLabel()
 buy_skin_1_btn = QPushButton("BUY SKIN EMMM")
-
 skin_1_img = QPixmap("rocket.png")
 skin_1_img = skin_1_img.scaledToWidth(64)
 skin_1.setPixmap(skin_1_img)
